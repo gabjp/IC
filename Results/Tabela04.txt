@@ -1,0 +1,44 @@
+
+Experimento: RF_12S+4M
+    Fit time: 46.41+-1.52
+    Prediction time: 0.26+-0.0
+    F-mean: 96.04+-0.1
+    P_QSO: 93.11+-0.27
+    P_STAR: 98.45+-0.14
+    P_GAL: 97.12+-0.14
+    R_QSO: 92.29+-0.36
+    R_STAR: 97.04+-0.08
+    R_GAL: 98.25+-0.07
+    F_QSO: 92.7+-0.27
+    F_STAR: 97.74+-0.06
+    F_GAL: 97.68+-0.07
+    
+
+Experimento: RF_12S+2W+4M
+    Fit time: 45.73+-2.03
+    Prediction time: 0.25+-0.0
+    F-mean: 97.47+-0.12
+    P_QSO: 95.54+-0.24
+    P_STAR: 99.32+-0.12
+    P_GAL: 97.82+-0.12
+    R_QSO: 95.45+-0.59
+    R_STAR: 97.98+-0.04
+    R_GAL: 98.71+-0.07
+    F_QSO: 95.49+-0.29
+    F_STAR: 98.65+-0.08
+    F_GAL: 98.27+-0.05
+    
+    
+12s+4M+:
+fit_time: 5606.65+-119.87
+score_time: 39.17+-0.23
+test_Precision_QSO: 82.58+-0.5
+test_Recall_QSO: 86.8+-0.85
+test_f1_QSO: 84.64+-0.55
+test_Precision_STAR: 96.15+-0.12
+test_Recall_STAR: 92.62+-0.25
+test_f1_STAR: 94.35+-0.15
+test_Precision_GAL: 95.68+-0.31
+test_Recall_GAL: 97.15+-0.15
+test_f1_GAL: 96.41+-0.14
+test_f1_macro: 91.8+-0.24
