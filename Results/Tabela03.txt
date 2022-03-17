@@ -1,0 +1,187 @@
+Experimento: RF_12S
+    Fit time: 33.97+-0.55
+    Prediction time: 0.34+-0.0
+    F-mean: 92.17+-0.3
+    P_QSO: 91.99+-0.41
+    P_STAR: 95.55+-0.46
+    P_GAL: 91.26+-0.41
+    R_QSO: 89.31+-0.97
+    R_STAR: 89.59+-0.44
+    R_GAL: 95.7+-0.29
+    F_QSO: 90.63+-0.52
+    F_STAR: 92.47+-0.31
+    F_GAL: 93.42+-0.2
+    
+
+Experimento: RF_12S+2W
+    Fit time: 33.47+-0.66
+    Prediction time: 0.29+-0.01
+    F-mean: 96.85+-0.05
+    P_QSO: 95.48+-0.12
+    P_STAR: 98.61+-0.08
+    P_GAL: 96.97+-0.15
+    R_QSO: 94.83+-0.26
+    R_STAR: 97.06+-0.25
+    R_GAL: 98.14+-0.08
+    F_QSO: 95.15+-0.12
+    F_STAR: 97.83+-0.15
+    F_GAL: 97.55+-0.08
+    
+
+Experimento: RF_5s
+    Fit time: 22.19+-0.45
+    Prediction time: 0.33+-0.0
+    F-mean: 90.19+-0.25
+    P_QSO: 90.58+-0.46
+    P_STAR: 91.93+-0.73
+    P_GAL: 89.74+-0.35
+    R_QSO: 88.4+-0.7
+    R_STAR: 87.68+-0.53
+    R_GAL: 93.03+-0.45
+    F_QSO: 89.48+-0.53
+    F_STAR: 89.75+-0.26
+    F_GAL: 91.36+-0.14
+    
+
+Experimento: RF_5S+2W
+    Fit time: 21.07+-0.49
+    Prediction time: 0.27+-0.0
+    F-mean: 96.62+-0.13
+    P_QSO: 94.98+-0.2
+    P_STAR: 98.14+-0.12
+    P_GAL: 96.92+-0.17
+    R_QSO: 95.08+-0.32
+    R_STAR: 96.93+-0.34
+    R_GAL: 97.68+-0.16
+    F_QSO: 95.03+-0.18
+    F_STAR: 97.53+-0.18
+    F_GAL: 97.3+-0.12
+    
+
+Experimento: SVM_12S
+    Fit time: 147.18+-7.83
+    Prediction time: 39.64+-0.3
+    F-mean: 76.96+-0.24
+    P_QSO: 90.89+-0.13
+    P_STAR: 76.16+-0.39
+    P_GAL: 73.59+-0.25
+    R_QSO: 77.52+-1.16
+    R_STAR: 61.35+-0.4
+    R_GAL: 85.82+-0.18
+    F_QSO: 83.67+-0.7
+    F_STAR: 67.96+-0.36
+    F_GAL: 79.24+-0.13
+    
+
+Experimento: SVM_12S+2W
+    Fit time: 115.94+-10.2
+    Prediction time: 31.46+-0.09
+    F-mean: 89.7+-0.17
+    P_QSO: 95.47+-0.31
+    P_STAR: 94.39+-0.34
+    P_GAL: 86.77+-0.19
+    R_QSO: 83.56+-1.0
+    R_STAR: 84.06+-0.48
+    R_GAL: 95.83+-0.24
+    F_QSO: 89.12+-0.62
+    F_STAR: 88.92+-0.37
+    F_GAL: 91.07+-0.16
+    
+
+Experimento: SVM_5s
+    Fit time: 119.75+-0.18
+    Prediction time: 35.37+-0.32
+    F-mean: 78.47+-0.3
+    P_QSO: 89.46+-0.54
+    P_STAR: 74.6+-0.39
+    P_GAL: 75.91+-0.22
+    R_QSO: 82.87+-0.84
+    R_STAR: 65.97+-0.48
+    R_GAL: 83.14+-0.38
+    F_QSO: 86.04+-0.6
+    F_STAR: 70.02+-0.24
+    F_GAL: 79.36+-0.19
+    
+
+Experimento: SVM_5S+2W
+    Fit time: 59.31+-0.37
+    Prediction time: 18.38+-0.08
+    F-mean: 95.11+-0.15
+    P_QSO: 95.37+-0.26
+    P_STAR: 95.8+-0.15
+    P_GAL: 95.57+-0.16
+    R_QSO: 91.43+-0.45
+    R_STAR: 96.4+-0.21
+    R_GAL: 96.2+-0.09
+    F_QSO: 93.36+-0.32
+    F_STAR: 96.1+-0.08
+    F_GAL: 95.88+-0.09
+    
+    
+    
+    
+ ==============================================================================
+     
+ ==============================================================================
+
+
+
+
+Experimento: SVM_12S (padronizado)
+    Fit time: 66.21+-0.4
+    Prediction time: 22.76+-0.43
+    F-mean: 87.37+-0.23
+    P_QSO: 90.5+-0.39
+    P_STAR: 91.48+-0.4
+    P_GAL: 85.29+-0.3
+    R_QSO: 84.07+-0.78
+    R_STAR: 80.71+-0.42
+    R_GAL: 93.48+-0.26
+    F_QSO: 87.17+-0.55
+    F_STAR: 85.76+-0.18
+    F_GAL: 89.2+-0.07
+    
+
+Experimento: SVM_12S+2W (padronizado)
+    Fit time: 21.49+-0.98
+    Prediction time: 6.84+-0.23
+    F-mean: 96.37+-0.09
+    P_QSO: 95.43+-0.2
+    P_STAR: 97.7+-0.07
+    P_GAL: 96.51+-0.12
+    R_QSO: 94.59+-0.38
+    R_STAR: 96.53+-0.26
+    R_GAL: 97.48+-0.05
+    F_QSO: 95.01+-0.25
+    F_STAR: 97.11+-0.16
+    F_GAL: 96.99+-0.07
+    
+
+Experimento: SVM_5s (padronizado)
+    Fit time: 61.59+-0.21
+    Prediction time: 18.23+-0.11
+    F-mean: 87.24+-0.25
+    P_QSO: 89.76+-0.46
+    P_STAR: 91.54+-0.39
+    P_GAL: 85.15+-0.26
+    R_QSO: 84.8+-0.59
+    R_STAR: 80.1+-0.41
+    R_GAL: 93.38+-0.27
+    F_QSO: 87.21+-0.51
+    F_STAR: 85.43+-0.2
+    F_GAL: 89.08+-0.15
+    
+
+Experimento: SVM_5S+2W (padronizado)
+    Fit time: 17.7+-0.04
+    Prediction time: 5.47+-0.02
+    F-mean: 96.51+-0.07
+    P_QSO: 95.05+-0.13
+    P_STAR: 97.67+-0.02
+    P_GAL: 96.83+-0.18
+    R_QSO: 95.46+-0.19
+    R_STAR: 96.67+-0.28
+    R_GAL: 97.37+-0.09
+    F_QSO: 95.25+-0.08
+    F_STAR: 97.17+-0.15
+    F_GAL: 97.1+-0.1

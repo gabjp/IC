@@ -1,0 +1,63 @@
+RF_5S X SVM_5S
+Outros: W: 15 p: 0.3
+
+RF_12S X SVM_12S
+Outros: W: 15 p: 0.3
+
+RF_5S+2W X SVM_5S+2W
+P_QSO: W: 0.0 p: 1.0 *************
+Outros: W: 15 p: 0.3
+
+RF_12S+2W X SVM_12S+2W
+P_QSO: W: 7.0 p: 0.59375 ************
+Outros: W: 15 p: 0.3
+
+RF_12S X RF_5S
+Outros: W: 15 p: 0.3
+
+RF_12S+2W X RF_5S+2W
+P_QSO: W: 14.0 p: 0.0625
+P_GAL: W: 11.0 p: 0.21875
+R_QSO: W: 1.0 p: 0.96875
+R_STAR: W: 13.0 p: 0.09375
+F_QSO: W: 12.0 p: 0.15625
+Outros: W: 15 p: 0.3
+
+RF_5S+2W X RF_5S
+Outros: W: 15 p: 0.3
+
+RF_12S+2W X RF_12S
+Outros: W: 15 p: 0.3
+
+RF_12S+2W+4M X RF_12S+2W
+P_QSO: W: 10.0 p: 0.3125
+R_QSO: W: 14.0 p: 0.0625
+F_QSO: W: 14.0 p: 0.0625
+Outros: W: 15 p: 0.3
+
+RF_12S+4M X RF_12S
+Outros: W: 15 p: 0.3
+
+RF_12S+2W+4M X RF_12S+4M
+Outros: W: 15 p: 0.3
+
+RF_5S X SVM_5S_P
+P_STAR: W: 13.0 p: 0.09375
+R_GAL: W: 0.0 p: 1.0
+Outros: W: 15 p: 0.3
+
+RF_12S X SVM_12S_P
+Outros: W: 15 p: 0.3
+
+RF_5S+2W X SVM_5S+2W_P
+P_QSO: W: 6.0 p: 0.6875
+P_GAL: W: 12.0 p: 0.15625
+R_QSO: W: 0.0 p: 1.0
+F_QSO: W: 1.0 p: 0.96875
+Outros: W: 15 p: 0.3
+
+RF_12S+2W X SVM_12S+2W_P
+P_QSO: W: 11.0 p: 0.21875
+R_QSO: W: 14.0 p: 0.0625
+F_QSO: W: 12.0 p: 0.15625
+Outros: W: 15 p: 0.3
