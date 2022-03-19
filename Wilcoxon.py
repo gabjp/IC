@@ -153,7 +153,7 @@ for pair in comparisons:
     
     for key  in i_results["RF_12S"]:
      
-        w, p = wilcoxon(np.array(i_results[pair[0]][key])*100, np.array(i_results[pair[1]][key])*100, mode="exact", alternative="greater")
+        w, p = wilcoxon(np.sort(np.array(i_results[pair[0]][key])*100), np.sort(np.array(i_results[pair[1]][key])*100), mode="exact", alternative="greater")
         if w != 15:
             print(f"{key}: W: {w} p: {p}")
     print("Outros: W: 15 p: 0.3", end= "\n\n")
