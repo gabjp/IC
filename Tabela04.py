@@ -37,11 +37,13 @@ y = no_wise.pop("target")
 kf = StratifiedKFold(n_splits=5, random_state=2, shuffle=True) 
 
 
-clf = RandomForestClassifier(random_state=2, n_estimators=100, bootstrap=False)
-
+#clf = RandomForestClassifier(random_state=2, n_estimators=100, bootstrap=False)
+#RGS:
+clf = RandomForestClassifier(random_state=2,n_estimators= 200, min_samples_split= 2, min_samples_leaf= 1, max_features= 5, max_depth= 90, bootstrap= False)
 results = cross_validate(estimator=clf, X=no_wise, y=y, cv=kf, scoring=scoring, return_train_score=False)
 
-print("12s+4M+:")
+print("12s+4M+*:")
+#print("12s+4M+:")
 for key in results:
     print(f"{key}: {np.round(np.mean(results[key]*100),2)}+-{np.round(np.std(results[key]*100),2)}")
 

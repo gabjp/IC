@@ -45,3 +45,31 @@ test_Precision_GAL: 95.68+-0.31
 test_Recall_GAL: 97.15+-0.15
 test_f1_GAL: 96.41+-0.14
 test_f1_macro: 91.8+-0.24
+
+12s+4M+*:
+fit_time: 14904.09+-247.75
+score_time: 74.6+-1.73
+test_Precision_QSO: 82.58+-0.51
+test_Recall_QSO: 86.52+-1.05
+test_f1_QSO: 84.5+-0.59
+test_Precision_STAR: 96.09+-0.15
+test_Recall_STAR: 92.59+-0.28
+test_f1_STAR: 94.31+-0.17
+test_Precision_GAL: 95.62+-0.42
+test_Recall_GAL: 97.16+-0.12
+test_f1_GAL: 96.38+-0.18
+test_f1_macro: 91.73+-0.29
+
+Experimento: RF_12S+2W+4M*
+    Fit time: 185.72+-2.93
+    Prediction time: 0.99+-0.01
+    F-mean: 97.5+-0.11
+    P_QSO: 95.6+-0.2
+    P_STAR: 99.32+-0.12
+    P_GAL: 97.85+-0.08
+    R_QSO: 95.54+-0.45
+    R_STAR: 97.98+-0.05
+    R_GAL: 98.74+-0.06
+    F_QSO: 95.57+-0.26
+    F_STAR: 98.65+-0.08
+    F_GAL: 98.3+-0.05

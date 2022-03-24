@@ -87,6 +87,22 @@ def i_values(listmat):
             resultados[keys[i]].append(x[i])
             
     return resultados
+
+def show_metrics(mat):
+    #Dada uma matriz de confusão, printar as metricas.
+    
+    m = metrics(mat)
+    print(f"""    F-mean: {np.round(m[9]*100,2)}
+    P_QSO: {np.round(m[0]*100,2)}
+    P_STAR: {np.round(m[2]*100,2)}
+    P_GAL: {np.round(m[4]*100,2)}
+    R_QSO: {np.round(m[1]*100,2)}
+    R_STAR: {np.round(m[3]*100,2)}
+    R_GAL: {np.round(m[5]*100,2)}
+    F_QSO: {np.round(m[6]*100,2)}
+    F_STAR: {np.round(m[7]*100,2)}
+    F_GAL: {np.round(m[8]*100,2)}
+    """)
         
         
         

@@ -1,0 +1,14 @@
+Tentativa 1:
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+{'n_estimators': 200, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 5, 'max_depth': 90, 'bootstrap': False}
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+{'n_estimators': 400, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'max_depth': 110, 'bootstrap': False}
+
+Tentativa 2:
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+12S+4M
+{'n_estimators': 200, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 5, 'max_depth': 90, 'bootstrap': False}
+12S+4M+2W
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+{'n_estimators': 400, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'max_depth': None, 'bootstrap': False}

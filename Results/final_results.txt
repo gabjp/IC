@@ -1,0 +1,57 @@
+The results are ordered according to the article
+
+    Fit time: 60.06
+    Prediction time: 0.4
+    F-mean: 97.75
+    P_QSO: 95.74
+    P_STAR: 99.44
+    P_GAL: 98.18
+    R_QSO: 95.98
+    R_STAR: 98.38
+    R_GAL: 98.8
+    F_QSO: 95.86
+    F_STAR: 98.91
+    F_GAL: 98.49
+    
+
+    Fit time: 72.56
+    Prediction time: 0.46
+    F-mean: 95.11
+    P_QSO: 95.74
+    P_STAR: 95.63
+    P_GAL: 97.37
+    R_QSO: 86.15
+    R_STAR: 98.05
+    R_GAL: 98.26
+    F_QSO: 90.69
+    F_STAR: 96.82
+    F_GAL: 97.81
+    
+
+    Fit time: 73.83
+    Prediction time: 0.14
+    F-mean: 79.44
+    P_QSO: 52.9
+    P_STAR: 98.01
+    P_GAL: 81.89
+    R_QSO: 91.89
+    R_STAR: 79.16
+    R_GAL: 85.37
+    F_QSO: 67.15
+    F_STAR: 87.59
+    F_GAL: 83.6
+    
+
+    Fit time: 73.48
+    Prediction time: 0.56
+    F-mean: 92.04
+    P_QSO: 82.88
+    P_STAR: 96.16
+    P_GAL: 96.02
+    R_QSO: 87.19
+    R_STAR: 93.0
+    R_GAL: 97.17
+    F_QSO: 84.98
+    F_STAR: 94.55
+    F_GAL: 96.59
+    

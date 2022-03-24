@@ -21,11 +21,11 @@ from sklearn.svm import SVC
 
 tab4 = train_with_WISE.drop(columns=["final_train","wise"])
 
-experiments = ["RF_12S+4M","RF_12S+2W+4M"]
-drops = [["w1mpro", "w2mpro"],[]]
+experiments = ["RF_12S+4M","RF_12S+2W+4M", "RF_12S+2W+4M*"]
+drops = [["w1mpro", "w2mpro"],[],[]]
 id_results = {}
 
-for j in range(2):
+for j in range(2,3):
 
     useful = tab4.drop(columns=drops[j])
         
@@ -44,8 +44,11 @@ for j in range(2):
         y_1_train = x_1_train.pop("target")
         y_1_test = x_1_test.pop("target")
             
-       
-        mod= RandomForestClassifier(bootstrap=False, random_state=2)
+        
+        if j==2:
+            mod= RandomForestClassifier(n_estimators= 400, min_samples_split= 2, min_samples_leaf= 1, max_features= 'sqrt', max_depth= None, bootstrap= False)
+        else:
+            mod= RandomForestClassifier(bootstrap=False, random_state=2)
         tic = perf_counter()
         mod.fit(x_1_train, y_1_train)
         tac = perf_counter()
