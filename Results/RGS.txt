@@ -12,3 +12,31 @@ Fitting 3 folds for each of 100 candidates, totalling 300 fits
 12S+4M+2W
 Fitting 3 folds for each of 100 candidates, totalling 300 fits
 {'n_estimators': 400, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'max_depth': None, 'bootstrap': False}
+
+Tentativa 3 (Programa igual a tentativa 2):
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+12S+4M
+{'n_estimators': 200, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 5, 'max_depth': 90, 'bootstrap': False}
+12S+4M+2W
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+{'n_estimators': 400, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'max_depth': 40, 'bootstrap': False}
+
+Tentativa 4 (Adicionei random_state ao RF):
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+12S+4M
+{'n_estimators': 400, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'max_depth': 40, 'bootstrap': False}
+12S+4M+2W
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+{'n_estimators': 400, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'max_depth': 40, 'bootstrap': False}
+
+Tentativa 5 (random_state + f1_score):
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+/home/gjperin/anaconda3/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py:702: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  warnings.warn(
+12S+4M
+{'n_estimators': 400, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'max_depth': 40, 'bootstrap': False}
+12S+4M+2W
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+{'n_estimators': 400, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'max_depth': 40, 'bootstrap': False}

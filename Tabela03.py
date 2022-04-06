@@ -32,7 +32,7 @@ drops = [["w1mpro", "w2mpro"],[],["w1mpro", "w2mpro","F378_iso", "F395_iso", "F4
 i_results = {}
 
 
-for alg in range(2):
+for alg in range(1,2):
 
     for j in range(4):
     
@@ -67,7 +67,7 @@ for alg in range(2):
             pred_time.append(toc-tac)
             
         if __name__ == "__main__":
-            print(f"Experimento: {algs[alg]+experiments[j]} (padronizado)")
+            print(f"Experimento: {algs[alg]+experiments[j]}")
             print(f"    Fit time: {np.round(np.mean(fit_time),2)}+-{np.round(np.std(fit_time),2)}")
             print(f"    Prediction time: {np.round(np.mean(pred_time),2)}+-{np.round(np.std(pred_time),2)}")
             display_metrics(results)
